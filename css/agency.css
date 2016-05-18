@@ -118,7 +118,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: #ffffff;
   background-color: #aa0000;
-  border-color: #f6bf01;
+  border-color: #cc0101;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -553,7 +553,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/RBC2.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
