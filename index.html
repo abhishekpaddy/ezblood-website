@@ -16,6 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/bootstrap-switch.css" rel="stylesheet">
+
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,6 +25,9 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"> <img src="../ezblood-website/img/company-logo/logo.png" height="180%" alt="ezblood"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"> <img src="../ezblood-website/img/company-logo/logo.png" height="220%" alt="ezblood"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -628,18 +633,28 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="../ezblood-website/img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Order Blood Products</h2>
+                            <p class="item-intro text-muted">Blood Group</p>
+                            
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default active">
+                                    <input type="radio" name="BloodGroup" id="option1" autocomplete="off" checked> A+
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="BloodGroup" id="option2" autocomplete="off"> B+
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="BloodGroup" id="option3" autocomplete="off"> AB+
+                                </label>
+                            </div>
+                            <p class="item-intro text-muted">NAT testing</p>
+
+                            <div class="bootstrap-switch data-animate">
+                                <input type="checkbox"  name="my-checkbox"  checked data-on-color='success' data-off-color = 'danger' data-on-text = 'YES' data-off-text = 'NO' >
+                            </div>
+                            
+
+
                         </div>
                     </div>
                 </div>
@@ -783,6 +798,8 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <!-- Bootstrap switch -->
+    <script src="js/bootstrap-switch.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -798,6 +815,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+
 
 </body>
 
