@@ -24,4 +24,7 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
 $("[name='my-checkbox']").bootstrapSwitch();
+
+	

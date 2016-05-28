@@ -25,7 +25,7 @@
   cursor: pointer;
   border-radius: 4px;
   border: 1px solid;
-  border-color: #cccccc;
+  border-color: #eeeeee;
   position: relative;
   text-align: left;
   overflow: hidden;
@@ -55,8 +55,8 @@
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block !important;
-  height: 100%;
-  padding: 6px 12px;
+  height: 5%;
+  padding: 6px 6px;
   font-size: 14px;
   line-height: 20px;
 }
