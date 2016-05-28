@@ -739,3 +739,42 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #8b0000;
 }
+
+.table th, .table td { 
+     border-top: none !important; 
+ }
+
+.centralminusplus{
+  width: 100px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+/*
+.portfolio-modal.backdrop {
+   color: red;
+}
+*/
